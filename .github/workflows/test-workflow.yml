@@ -3,8 +3,8 @@ name: Workflow de test
 
 on:
   workflow_dispatch: 
-  schedule:
-cron: '0 * * * *'
+#   schedule:
+# cron: '0 * * * *'
 jobs:
   main_job:
     runs-on: ubuntu-latest
